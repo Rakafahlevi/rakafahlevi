@@ -1,0 +1,42 @@
+html{
+	margin: 0;
+	padding: 0;
+
+}
+
+/* .container{
+    position: fixed;
+} */
+
+.breadcrumb-item{
+    position: absolute;
+}
+
+.jumbotron {
+    background-image: url('img/DKI.png');
+    background-attachment: fixed;
+    color: white;
+    background-size: cover;
+    background-position: 0 60px;
+    height: 600px;
+    padding-top: 11rem;
+    text-shadow: 100px;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    padding: 10px 34px;
+    font-size: 17px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #1c77fc;
+    background: #1c77fc;
+    transition: 0.5s;
+}
+
